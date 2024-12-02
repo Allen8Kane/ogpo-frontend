@@ -42,9 +42,9 @@ const Header = () => {
   return (
     <div className="container m-auto">
       <div className="w-full h-20 bg-black rounded-2xl flex flex-row gap-8">
-        <div className="bg-cyan-700"></div>
+        <div className="w-1/3 bg-cyan-700"></div>
         <Navbar />
-        <div className="bg-cyan-700"></div>
+        <div className="w-1/3 bg-cyan-700"></div>
       </div>
     </div>
   )

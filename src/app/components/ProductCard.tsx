@@ -14,7 +14,7 @@ const ProductCard = (props: ProductCardProps) => {
   return (
     <div className="w-34">
       <Image
-      src={'/card-image.png'}
+      src={product.image}
       width={400}
       height={250}
       alt={product.title}
